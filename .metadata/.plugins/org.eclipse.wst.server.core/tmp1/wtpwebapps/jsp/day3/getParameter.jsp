@@ -16,5 +16,6 @@
 	<br />
 	<p><%=text%></p>
 	<a href="sendByGet.jsp">戻る</a>
+	<p><% request.getCharacterEncoding(); %></p>
 </body>
 </html>

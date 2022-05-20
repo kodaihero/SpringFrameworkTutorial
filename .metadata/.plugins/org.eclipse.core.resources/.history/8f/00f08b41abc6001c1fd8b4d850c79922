@@ -1,0 +1,94 @@
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+public class Trainings1 {
+	
+	// メインクラス
+ 
+public class Main {
+    public static void main(String[] args) throws Exception {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        // 入力パラメータを読み込む
+        String input = br.readLine();
+        String[] param = input.split(" ");//入力値を空白で分解する
+
+        // 以下回答
+        // 問1 
+		String numA = "4";
+		String numB = "-83";
+		
+		System.out.println(question1(numA, numB));
+		
+		// 問2
+		int numC = 64;
+		int numD = 28;
+		
+		System.out.println("");
+		
+		
+		//問3
+		System.out.println();
+		
+		
+		// 問4
+		System.out.println();
+		
+    }
+}
+	public static void main(String[] args) throws Exception{
+		
+	}
+	
+	// 演習問題
+	//url: https://eng-entrance.com/java-question-algorithm
+	
+	// 問1: 入力された2つの数の和を出力するプログラムを作成しなさい。
+
+	// 入力する数は、共に整数とする。
+	// 負の数も含む。負の数の場合は、数値の直前に空白を挟まずに「-」（マイナス）を付加して入力するものとし、数値の範囲は-10000～10000とする。
+
+	public static int question1 (String a, String b) {
+		return(Integer.parseInt(b) + Integer.parseInt(b));
+	}
+	
+	// 問2: 入力された四則演算の結果を出力するプログラムを作成しなさい。下記が条件だ。
+
+	// 入力する数は、すべて整数とする。
+	// 演算記号は「+」(和) 「-」(差) 「*」(積) 「/」(商)を使用する。
+	// 四則演算の式は、1回の演算とし、2回以上の演算は行わない。（正しい：23 * 58 / 誤り: 23 + 58 + 7）
+	// 商を求める際は、余りを「 … N」と表示する
+	// 「0」(ゼロ)で割る式は入力しない
+	// 負の数も含む。負の数の場合は、数値の直前に空白を挟まずに「-」（マイナス）を付加して入力するものとし、数値の範囲は-10000～10000とする。
+	
+	public static void question2 (int numF, int numL) {
+		
+	}
+	
+	
+	// 問3:入力された加算／減算演算の結果を出力するプログラムを作成しなさい。
+
+	// 入力する数は、すべて整数とする。
+	// 演算記号は「+」(和) 「-」(差)を使用する。
+	// 演算の式は、最低1回の演算を行うものとし、複数回の演算を行う場合もある。（正しい:      23 + 58 + 7）
+	// 負の数も含む。負の数の場合は、数値の直前に空白を挟まずに「-」（マイナス）を付加して入力するものとし、数値の範囲は-10000～10000とする。
+	//演算の途中経過における取りうる値の反は-10000～10000とする。
+	
+	public static void question3 () {
+		
+	}
+	
+	
+	// 問4:　入力された加算／減算演算の結果を出力するプログラムを作成しなさい。
+
+	// 入力する数は、すべて整数とする。
+	// 演算記号は「+」(和) 「-」(差)を使用する。
+	// 演算の式は、最低1回の演算を行うものとし、複数回の演算を行う場合もある。
+	// 四則演算の記法に乗っ取り、先に行うべき演算は「（」および「）」でくくるものとし、入れ子構造も可とする。【正しい:  23 + 58 + 7 – ( 10 + 3 ) – ( 3 – ( 5 + 4  – ( 8 – 2 ) ) )】
+	// 負の数も含む。負の数の場合は、数値の直前に空白を挟まずに「-」（マイナス）を付加して入力するものとし、数値の範囲は-10000～10000とする。
+	// 演算の途中経過における取りうる値の反は-10000～10000とする。
+	
+	public static void question4 () {
+		
+	}
+
+}

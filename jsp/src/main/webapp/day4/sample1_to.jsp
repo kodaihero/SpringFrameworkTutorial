@@ -36,6 +36,6 @@
 		</tr>
 	</table>
 	<br />
-	<a href="sample2_from.jsp">戻る</a>
+	<a href="sendByForm.jsp">戻る</a>
 </body>
 </html>

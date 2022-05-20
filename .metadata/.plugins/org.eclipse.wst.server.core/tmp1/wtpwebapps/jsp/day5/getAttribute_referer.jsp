@@ -20,7 +20,7 @@
 		<!-- リファラーの取得 -->
 		Referer:<%=request.getHeader("referer")%></p> 
 	<p>
-		<a href="sample1_from.jsp">sample1_from.jsp</a>
+		<a href="setAttribute_session.jsp">setAttribute_session.jsp</a>
 	</p>
 </body>
 </html>

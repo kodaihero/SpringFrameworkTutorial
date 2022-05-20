@@ -10,10 +10,10 @@
 <body>
 	<br />
 	<%
-	String links[] = { "link1", "リンク2" };
+	String links[] = { "link1(Getなので表示されます)", "リンク2(Getなので表示されます)" };
 	for (int i = 0; i < links.length; i++) {
 	%>
-	<a href="sample1_to.jsp?text=<%=links[i]%>">リンク処理<%=i%></a>
+	<a href="getParameter.jsp?text=<%=links[i]%>">リンク処理<%=i%></a>
 	<br />
 	<%
 	}

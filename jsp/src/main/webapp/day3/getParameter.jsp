@@ -15,6 +15,6 @@
 	<b>受信結果</b>
 	<br />
 	<p><%=text%></p>
-	<a href="sample1_from.jsp">戻る</a>
+	<a href="sendByGet.jsp">戻る</a>
 </body>
 </html>

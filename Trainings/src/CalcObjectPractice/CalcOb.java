@@ -142,6 +142,6 @@ public class CalcOb {
 		// String[] numbersForComplexCalcs = inputForQ4.split("");
 		// int sum = calc(numbersForComplexCalcs,0,numbersForComplexCalcs.length - 1) ;
 		
-		
+		// 結局やってないが、とりあえずここがリモートリポジトリに反映されるか試したい
 	}
 }

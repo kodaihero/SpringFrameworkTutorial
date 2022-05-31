@@ -12,7 +12,7 @@
 		</div>
 		<input type="submit" value="計算">
 	</form>
-	<ul th:if="${fields.hasErrors('*')}">
+	<ul th:if="${#fields.hasErrors('*')}">
 		<li th:each="err:${#fields.errors('*')}" th:text="${err}"></li>
 	</ul>
 </body>

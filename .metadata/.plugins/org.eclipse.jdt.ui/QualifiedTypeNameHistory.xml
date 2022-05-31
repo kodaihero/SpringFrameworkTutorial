@@ -7,8 +7,11 @@
     <fullyQualifiedTypeName name="chapter03.used.SubCalc"/>
     <fullyQualifiedTypeName name="com.example.demo.Member"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
     <fullyQualifiedTypeName name="com.example.demo.entity.Member"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
+    <fullyQualifiedTypeName name="org.springframework.format.annotation.DateTimeFormat"/>
+    <fullyQualifiedTypeName name="org.springframework.format.annotation.DateTimeFormat.ISO"/>
 </qualifiedTypeNameHistroy>

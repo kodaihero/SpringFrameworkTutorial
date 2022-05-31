@@ -46,3 +46,8 @@
 2022-05-30 18:13:41,248 [main] INFO  o.t.e.e.d.ProjectDependencyDialectLocator - Scanning for dialect help files on project dependencies
 2022-05-30 18:13:41,285 [pool-18-thread-1] INFO  o.t.e.e.d.ProjectDependencyDialectLocator - Help file found: Standard-Dialect.xml
 2022-05-30 18:13:41,285 [pool-18-thread-2] INFO  o.t.e.e.d.ProjectDependencyDialectLocator - Help file found: Java8Time.xml
+2022-05-31 09:57:47,334 [Worker-9: クイック Diff の初期化中] WARN  org.eclipse.jgit.util.FS - Cannot run program "\usr\bin\git" (in directory "\usr\bin"): CreateProcess error=2, 指定されたファイルが見つかりません。
+2022-05-31 09:58:18,923 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-05-31 11:08:52,218 [Text Viewer Hover Presenter] INFO  o.t.e.e.d.ProjectDependencyDialectLocator - Scanning for dialect help files on project dependencies
+2022-05-31 11:08:52,509 [pool-6-thread-2] INFO  o.t.e.e.d.ProjectDependencyDialectLocator - Help file found: Standard-Dialect.xml
+2022-05-31 11:08:52,509 [pool-6-thread-1] INFO  o.t.e.e.d.ProjectDependencyDialectLocator - Help file found: Java8Time.xml
